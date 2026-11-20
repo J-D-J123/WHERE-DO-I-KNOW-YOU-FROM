@@ -1,10 +1,12 @@
-<a id="readme-top"></a>
-
 <!-- PROJECT SHIELDS -->
+<div align="center">
+
 [![Stars][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Manifest V3][mv3-shield]][mv3-url]
 [![Zero Servers][servers-shield]][privacy-url]
+
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -42,7 +44,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project.
 
 You're emailing Mike at Example Co. You forgot that Karen from Example Co. reached out two years ago. This extension remembers for you.
 
@@ -50,19 +52,19 @@ Inboxes are great at finding an email when you already know what you're looking 
 
 Searching "Mike" returns every Mike, and searching the domain only helps if you remember to do it. Meanwhile, the recruiter or old classmate from that company is buried under marketing emails. This extension surfaces them automatically whenever you open or write an email.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Built With.
 
-### Built With
+<div align="center">
 
-* [![JavaScript][JS-badge]][JS-url]
-* [![Chrome][Chrome-badge]][Chrome-url]
-* [![Firefox][Firefox-badge]][Firefox-url]
-* [![Gmail API][Gmail-badge]][Gmail-url]
+[![JavaScript][JS-badge]][JS-url]
+[![Chrome][Chrome-badge]][Chrome-url]
+[![Firefox][Firefox-badge]][Firefox-url]
+[![Gmail API][Gmail-badge]][Gmail-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
 
 <!-- PRIVACY -->
-## Privacy
+## Privacy.
 
 - **No servers.** No backend, no analytics, no cloud. Your browser talks directly to Gmail and nothing else.
 - **Headers only.** Reads `From`, `To`, `Cc`, and `Date`. Never message bodies or attachments.
@@ -70,10 +72,8 @@ Searching "Mike" returns every Mike, and searching the domain only helps if you 
 - **Auto-lock.** The key lives in memory only and locks after inactivity.
 - **Encrypted backups.** Exports stay encrypted and can only be restored with your passphrase.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- NERDY TECH -->
-## Nerdy Tech
+## Nerdy Tech.
 
 The extension reads only who emailed you and when, never what they said. Those people get sorted by company and stored in a locked vault on your own computer that only your password can open. No one else, including me, ever sees any of your data.
 
@@ -87,17 +87,15 @@ Built on Manifest V3 in vanilla JavaScript, with zero dependencies and no build 
 
 **Storing the data.** Encrypted records live in IndexedDB. While unlocked, a decrypted copy is kept in memory, so search and lookups are instant. Locking, whether manual, from the inactivity timer, or when you close the browser, wipes the key and that in-memory copy.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started.
 
 ### Prerequisites
 
 * Chrome 121+ or Firefox 121+
 * A Google Cloud project with the **Gmail API** enabled and an OAuth consent screen in **Testing** mode, with your Gmail added as a test user
 
-### Installation
+### Installation.
 
 1. Clone the repo
    ```sh
@@ -116,9 +114,6 @@ Built on Manifest V3 in vanilla JavaScript, with zero dependencies and no build 
    * **Firefox:** `about:debugging` → This Firefox → **Load Temporary Add-on** → pick `manifest.json`
 5. Click the toolbar icon, create a passphrase, and press **Start first sync**.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [stars-shield]: https://img.shields.io/github/stars/J-D-J123/WHERE-DO-I-KNOW-YOU-FROM.svg?style=for-the-badge
